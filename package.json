@@ -1,0 +1,24 @@
+{
+  "name": "manacharjs",
+  "version": "1.0.0",
+  "description": "Implementation of Manachar's algorithm in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshubhamk1/manacharjs.git"
+  },
+  "keywords": [
+    "String",
+    "Algorithm",
+    "Manachar"
+  ],
+  "author": "Shubham Kumar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sshubhamk1/manacharjs/issues"
+  },
+  "homepage": "https://github.com/sshubhamk1/manacharjs#readme"
+}
