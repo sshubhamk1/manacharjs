@@ -1,10 +1,11 @@
 {
   "name": "manacharjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implementation of Manachar's algorithm in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/sshubhamk1/manacharjs/issues"
   },
-  "homepage": "https://github.com/sshubhamk1/manacharjs#readme"
+  "homepage": "https://github.com/sshubhamk1/manacharjs#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }

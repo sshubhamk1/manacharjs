@@ -1,16 +1,16 @@
-function converString(string: String) {
+function convertString(str: string) {
   let newString = "@"; // starting delimeter
 
-  for (let index = 0; index < string.length; index++) {
-    newString += "#" + string.substring(index, index + 1);
+  for (let index = 0; index < str.length; index++) {
+    newString += "#" + str.substring(index, index + 1);
   }
   newString += "#$"; // ending delimeter
 
   return newString;
 }
 
-export const manachar = (string: String) => {
-  let newString = converString(string);
+export const manachar = (str: string) => {
+  let newString = convertString(str);
 
   let buff: number[] = new Array(newString.length);
   for (
@@ -54,5 +54,5 @@ export const manachar = (string: String) => {
   }
 
   let index = (centerIndex - 1 - maxPalindrome) / 2;
-  return string.substring(index, index + maxPalindrome);
+  return str.substring(index, index + maxPalindrome);
 };
