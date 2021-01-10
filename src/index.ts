@@ -9,7 +9,7 @@ function convertString(str: string) {
   return newString;
 }
 
-export const manachar = (str: string) => {
+function manacharAlgorithm(str: string) {
   let newString = convertString(str);
 
   let buff: number[] = new Array(newString.length);
@@ -55,4 +55,6 @@ export const manachar = (str: string) => {
 
   let index = (centerIndex - 1 - maxPalindrome) / 2;
   return str.substring(index, index + maxPalindrome);
-};
+}
+
+export const manachar = manacharAlgorithm;

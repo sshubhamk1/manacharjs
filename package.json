@@ -1,11 +1,12 @@
 {
   "name": "manacharjs",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Implementation of Manachar's algorithm in Javascript",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
